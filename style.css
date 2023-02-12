@@ -41,7 +41,7 @@ button {
   width: 90%;
   max-width: 340px;
   margin: 0 auto;
-  height: 45vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -108,5 +108,15 @@ button {
 
 .thanks-image {
   width: 50%;
+  margin: 0 auto;
+}
+
+.thanks-text {
+  background-color: hsl(215, 14%, 24%);
+  border: 1px solid hsl(215, 14%, 24%);
+  border-radius: 20px;
+  padding: 0.3em 0;
+  color: hsl(25, 97%, 53%);
+  width: 60%;
   margin: 0 auto;
 }
