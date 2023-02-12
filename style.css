@@ -1,1 +1,112 @@
 /* font-family: 'Overpass', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*-- Typography --*/
+
+h1 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.8rem;
+  color: hsl(217, 12%, 63%);
+}
+
+button {
+  background-color: hsl(25, 97%, 53%);
+}
+
+/*-- Layout --*/
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 10px;
+  padding: 2em;
+  width: 90%;
+  max-width: 340px;
+  margin: 0 auto;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo-star,
+.circle {
+  background-color: hsl(215, 14%, 24%);
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.rating {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.circle {
+  cursor: pointer;
+  color: hsl(213, 10%, 61%);
+  transition: all 0.4s ease-in-out;
+}
+
+.circle:hover {
+  background-color: hsl(213, 10%, 61%);
+  color: hsl(215, 14%, 24%);
+}
+
+.circle:focus {
+  background-color: hsl(25, 97%, 53%);
+  outline: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  padding: 1.2em 0;
+  border: none;
+  color: hsl(0, 4%, 90%);
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.hidden {
+  display: none;
+}
+
+#thanks-container {
+  text-align: center;
+}
+
+.thanks-image {
+  width: 50%;
+  margin: 0 auto;
+}
